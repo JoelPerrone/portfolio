@@ -1,0 +1,268 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#enTête {
+    justify-content: center;
+    border: 2px solid;
+    border-color: blue;
+    border-radius: 10px;
+    height: 150px;
+}
+
+#enTête > h1 {
+    text-align: center;
+    margin: 5px;
+    font-size: 50px;
+}
+
+#enTête > h3 {
+    text-align: center;
+    margin: 5px;
+    font-size: 25px;
+}
+
+body {
+    font-family: Arial;
+    font-size: 19px;
+}
+
+#Photo_CV > img{
+    height: 250px;
+    float: right;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#BUT {
+    height: 120px ;
+    text-align: justify;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+#BUT > p {
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+#Photo_UNI > img {
+    height: 100px;
+    float: left;
+    padding: 10px;
+}
+
+#BAC {
+    height: 170px ;
+    text-align: justify;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#BAC > p {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+#Photo_LAF > img {
+    height: 150px;
+    float: right;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#PSC1 {
+    height: 160px ;
+    text-align: justify;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+#PSC1 > p {
+    padding-top: 5px;
+}
+
+#Photo_PSC1 > img {
+    height: 150px;
+    float: left;
+    border-radius: 20px;
+}
+
+#barre_sommaire {
+    display: flex;
+    justify-content: center;
+}
+
+#Cordees {
+    height: 220px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border-bottom: 10px;
+}
+
+#Cordees > p {
+    padding-top: 40px;
+    padding-right: 5px;
+}
+
+#Photo_Cordees > img {
+    height: 180px;
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#lien_fichier {
+    border: 1px;
+    border-collapse: 10px;
+    color: black;
+} 
+
+#Attest {
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    height: 60px;
+    width: 120px;
+    color: black;
+}
+
+#Attest:hover {
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    height: 60px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+}
+
+#lien_fichier:hover {
+    border: 1px;
+    border-radius: 8px;
+    border-collapse: 10px;
+    background-color: blue;
+    color:white;
+}
+
+.b_bloc {
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    height: 45px;
+    width: 75px;
+    color: black;
+}
+
+.b_bloc:hover {
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    height: 45px;
+    width: 75px;
+    background-color: blue;
+    color: white;
+}
+.bloc {
+    margin: 20px;
+    padding: 20px;
+    border: 2px;
+    color: black;
+}
+.bloc:hover {
+    margin: 18px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+h1, h2, h3, h4, h5 {
+    color: blue;
+    text-shadow: 5px;
+}
+#loisirs {
+    display: flex;
+    justify-content: center;
+}
+
+#Musique > img {
+    height: 60px;
+}
+
+#Cinéma > img {
+    height: 60px;
+}
+
+#Sport > img {
+    height: 60px;
+}
+
+#Lecture > img {
+    height: 60px;
+}
+
+#Musique, #Cinéma, #Sport, #Lecture {
+    margin: 3px;
+    padding: 15px;
+    width: 120px;
+    border : 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+progress {
+    color: blue;
+    height: 25px;
+    width: 200px;
+}
+
+#photo_Boite > img {
+    height: 250px;
+    float: left;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#projet_boite {
+    height: 270px;
+}
+
+#projet_boite > p {
+    vertical-align: baseline;
+}
+
+#boutonCV {
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    height: 45px;
+    width: 90px;
+    color: black;
+}
+
+#boutonCV:hover {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+#Telephone > img {
+    height: 60px;
+}
+
+#Mail > img {
+    height: 60px;
+} 
+
+#Linkedin > img {
+    height: 60px;
+}

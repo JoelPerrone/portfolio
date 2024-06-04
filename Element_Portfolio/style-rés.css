@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#HDP {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: black;
+}
+
+#HDP > img {
+    height: 30px;
+}
+
+#HDP:hover {
+    background-color: blue;
+    color: white;
+}
+
+.separ {
+    display: flex;
+    background-color: lightgray;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.separ .logo {
+    height: 70px;
+    border-radius: 35px;
+    margin-left: 30px;
+}
+
+.menu {
+    margin-right: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    width: justify;
+}
+
+.menu .redir {
+    margin: 10px;
+    color: black;
+}
+
+.redir:hover {
+    color: white;
+}
+
+.Pres-conteneur {
+    padding-top: 180px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    background-image: url("./contenu/ReseauxFond.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.Pres-conteneur > p {
+    background-color: rgba(128,128,128,0.5);
+}
+
+.demarc {
+    height: 10px;
+    background-color: black;
+}
+
+.sous-comp {
+    height: fit-content;
+}
+
+.sous-comp img {
+    height: 250px;
+    margin: 25px;
+}
+
+.sous-comp p {
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.corp-sous-comp {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+}
+
+.ProgWebLang {
+    display: flex;
+    justify-content: center;
+}
+
+.ProgWebLang > img {
+    margin: 10px;
+}
+
+.regroup-img {
+    margin-right: 45px;
+}
+
+.regroup-img img {
+    height: 100px;
+}
+
+.barreProgress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.barreProgress > progress {
+    height: 50px;
+    width: 700px;
+}
+
+.boutonClassic {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    color: black;
+    background-color: lightgray;
+    transition: transfom 0.3s, background-color 0.3s, color 0.3s linear;
+    margin: 10px;
+}
+
+.boutonClassic:hover {
+    transform: scale(1.1);
+    background-color: blue;
+    color: white;
+}
+
+.centrerIMG {
+    display: flex;
+    justify-content: center;
+}

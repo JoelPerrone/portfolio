@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#HDP {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: black;
+}
+
+#HDP > img {
+    height: 30px;
+}
+
+#HDP:hover {
+    background-color: blue;
+    color: white;
+}
+
+.Test { 
+    background-color: lightblue;
+    height: 500px;
+}
+
+.separ {
+    display: flex;
+    background-color: lightgray;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.separ .logo {
+    height: 70px;
+    border-radius: 35px;
+    margin-left: 30px;
+}
+
+.menu {
+    margin-right: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    width: justify;
+}
+
+.menu .redir {
+    margin: 10px;
+    color: black;
+}
+
+.redir:hover {
+    color: white;
+}
+
+.Pres {
+    background-image: url("./Element_Portfolio/contenu/centreDeDonne.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    height: 600px;
+    padding-top: 250px;
+}
+
+.Pres > h1, .Pres > p {
+    background-color: rgba(128,128,128,0.5);
+}
+
+.articleBase {
+    text-align: center;
+}
+
+.articleBase > h1 {
+    padding-top: 40px;
+    padding-bottom: 35px;
+    font-size: 40px;
+}
+
+.demarc {
+    background-color: black;
+    height: 5px;
+}
+
+#AProposDeMoi {
+    color: white;
+    height: 600px;
+    background-image: url("Element_Portfolio/contenu/fondecrangeoInfo.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#AProposDeMoi > h1 {
+    text-shadow: 1px 1px 2px black;
+}
+
+#PourImg {
+    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    float: left;
+    width: 500px;
+    height: 400px;
+}
+
+#PourImg > img {
+    height: 400px;;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: black;
+}
+
+#descipAPDM {
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    padding-top: 50px;
+    float: right;
+    text-align: left;
+    margin-right: 15px;
+    height: 400px;
+    width: 900px;
+}
+
+#Formation > h1 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.PlaceElemnt {
+    display: flex;
+    justify-content: center
+}
+
+.PlaceElemnt > .missionPro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+#Tableau {
+    width: fit-content;
+    border-collapse: collapse;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid red;
+    padding: 8px;
+    text-align: center;
+}
+
+.ImgTab {
+    height: 100px;
+}
+
+#Experience_pro {
+    background-color: #1EAADE;
+    height: 600px;
+    text-align: center;
+}
+
+#Experience_pro > h1 {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+.missionPro > p {
+    float: left;
+    margin: 5px;
+    color: white;
+    font-size: large;
+}
+
+.conteneur {
+    margin: 10px;
+}
+
+.btdep {
+    background-color: blue;
+    width: 280px;
+    height: 60px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.btdep:hover {
+    background-color: darkblue;
+}
+
+.btdep-contenu {
+    padding: 0 10px;
+    font-size: large;
+    display: none;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.btdep-contenu > img {
+    padding: 5px;
+    height: 200px;
+}
+
+#Compétences {
+    margin-bottom: 50px;
+}
+
+.comp {
+    height: 520px;
+    width: 50%;
+}
+
+.comp h2 {
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#qualites {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#compTech {
+    float: right;
+}
+
+.allQualityComp {
+    display: flex;
+    justify-content: center;
+}
+
+.QualitéComp {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.QualitéComp2 {
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    transition: color 0.3s, transform 0.3s, background-color 0.3s linear;
+}
+
+.QualitéComp2:hover {
+    transform: scale(1.05);
+    background-color: blue;
+    color: white;
+}
+
+.QualitéComp p {
+    font-size: 20px;
+}
+
+.QualitéComp2 p {
+    font-size: 20px;
+}
+
+.QualitéComp img {
+    height: 100px;
+}
+
+.QualitéComp2 img {
+    height: 100px;
+}
+
+.subDiv {
+    margin-top: 500px;
+    height: 300px;
+}
+
+.subDiv h2 {
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+#Langues {
+    padding-top: 30px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.image-conteneur {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.DrapImage {
+    display: block;
+    width: auto;
+    height: 170px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    transition: transform 0.3s;
+}
+
+.DrapImage:hover {
+    transform: scale(1.05);
+}
+
+.level-conteneur {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 170px;
+    padding-top: 70px;
+    border-radius: 30px;
+    background-color: rgba(128,128,128,0.5);
+    color: white;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.level {
+    font-size: 40px
+}
+
+.image-conteneur:hover .level-conteneur {
+    visibility: visible;
+    opacity: 1;
+}
+
+.PageRedir:visited {
+    color: black;
+}
+
+#Projets {
+    background-image: url("Element_Portfolio/contenu/tableauACraie.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    height: fit-content;
+}
+
+.allProjets {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#Projets > h1, #Projets > h2 {
+    color: white;
+}
+
+.ProjetSemestre {
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: 15px;
+    color: black;
+    background-color: white;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.ProjetSemestre:hover {
+    transform: scale(1.1);
+    background-color: blue;
+    color: white;
+}
+
+#DiversImg {
+    display: flex;
+    justify-content: center;
+}
+
+#DiversImg > img {
+    height: 250px;
+    margin: 10px;
+}
+
+.BoutonApp {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.BoutonApp:hover {
+    transform: scale(1.1);
+    background-color: blue;
+    color: white;
+}
+
+.content-section > p{
+    font-size: 25px;
+    margin: 10px;
+}
+
+#CV {
+    background-color: lightblue;
+    padding-bottom: 25px;
+}
+
+#CV > img {
+    height: 600px;
+    padding: 5px;
+}
+
+#CV > h2 {
+    color: white;
+}
+
+#CV > button {
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    color: black;
+    transition: transform 0.3s, color 0.3s, background-color 0.3s;
+}
+
+#CV > button:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: blue;
+}
+
+.contactUnit {
+    display: flex;
+    justify-content: center;
+}
+
+.contactCV {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.contactCV > img {
+    height: 60px;
+}

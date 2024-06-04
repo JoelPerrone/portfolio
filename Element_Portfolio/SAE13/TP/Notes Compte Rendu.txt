@@ -1,0 +1,14 @@
+Pour chaque question : Présentation, mesure et analyse
+
+-Titre de la question
+-Précisez les conditions, Qu'est-ce que je fais ? : contexte, quel appareil, comment (expliquer étape par étape), moyen, technique utilisées
+
+-Prouvez le résultat : tableau de valeur, graphe... etc, 
+Schéma/tableau/graphe : précisez légende, axe x et y, titre du schéma/tableau/graph
+
+-Analyse : description, rappel de la présentation 
+Comparaison avec la théorie, 
+
+Erreur relative% 
+
+Conclusion 

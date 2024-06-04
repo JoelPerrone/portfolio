@@ -1,0 +1,2 @@
+nana.iloc[] --> pour les chiffres, ex : 0, 4, 25, 8, etc 
+nana.loc[] ---> pour les mots, ex : patrick, cuillère, apothicaire

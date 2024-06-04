@@ -1,0 +1,8 @@
+numpy :
+py -m pip install numpy
+
+pandas :
+py -m pip install pandas
+
+scapy :
+py -m pip install scapy

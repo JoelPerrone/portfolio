@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#HDP {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: black;
+}
+
+#HDP > img {
+    height: 30px;
+}
+
+#HDP:hover {
+    background-color: blue;
+    color: white;
+}
+
+.separ {
+    display: flex;
+    background-color: lightgray;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.separ .logo {
+    height: 70px;
+    border-radius: 35px;
+    margin-left: 30px;
+}
+
+.menu {
+    margin-right: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.menu .redir {
+    margin: 10px;
+    color: black;
+}
+
+.redir:hover {
+    color: white;
+}
+
+.Pres-conteneur {
+    padding-top: 180px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    background-image: url("contenu/fondEcranInfo.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.Pres-conteneur > p {
+    background-color: rgba(128,128,128,0.5);
+}
+
+.demarc {
+    height: 10px;
+    background-color: black;
+}
+
+.carac {
+    margin: 5px;
+}
+
+.carac > h2, .carac > p {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.conteneur-image {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteneur-image > img {
+    height: 260px;
+    margin: 10px;
+}
+

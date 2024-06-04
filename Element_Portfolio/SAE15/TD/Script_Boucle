@@ -1,0 +1,8 @@
+#!/bin/bash
+num=1
+while echo "num: Je boucle"
+do 
+	num=$(($num+1))
+	echo "Je m'endors"
+	sleep 5
+done
